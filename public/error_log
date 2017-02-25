@@ -1,0 +1,82 @@
+[24-Feb-2017 00:19:25 UTC] PHP Parse error:  syntax error, unexpected '"array"' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/cseguys/public_html/kfl/app/Http/Controllers/Hello.php on line 34
+[24-Feb-2017 00:19:40 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/cseguys/public_html/kfl/app/Http/Controllers/Hello.php on line 34
+[24-Feb-2017 00:26:16 UTC] PHP Fatal error:  Call to undefined function App\Http\Controllers\getPlayerDetails() in /home/cseguys/public_html/kfl/app/Http/Controllers/Hello.php on line 38
+[25-Feb-2017 00:35:34 UTC] PHP Fatal error:  Class 'Form' not found in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 1
+[25-Feb-2017 00:35:42 UTC] PHP Fatal error:  Class 'Form' not found in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 1
+[25-Feb-2017 00:36:32 UTC] PHP Fatal error:  Class 'Form' not found in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 1
+[25-Feb-2017 00:37:22 UTC] PHP Fatal error:  Class 'Form' not found in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 2
+[25-Feb-2017 00:37:39 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'The use statement with non-compound name 'Form' has no effect' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php:2
+Stack trace:
+#0 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'The use stateme...', '/home/cseguys/p...', 2, Array)
+#1 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\View\Engines\PhpEngine::evaluatePath()
+#2 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/cseguys/p...', Array)
+#3 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/cseguys/p...', Array)
+#4 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/ in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 2
+[25-Feb-2017 00:37:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 3
+[25-Feb-2017 00:39:34 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'The use statement with non-compound name 'Form' has no effect' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php:2
+Stack trace:
+#0 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'The use stateme...', '/home/cseguys/p...', 2, Array)
+#1 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\View\Engines\PhpEngine::evaluatePath()
+#2 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/cseguys/p...', Array)
+#3 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/cseguys/p...', Array)
+#4 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/ in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 2
+[25-Feb-2017 00:39:34 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 4
+[25-Feb-2017 00:39:45 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'The use statement with non-compound name 'Form' has no effect' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php:2
+Stack trace:
+#0 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'The use stateme...', '/home/cseguys/p...', 2, Array)
+#1 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\View\Engines\PhpEngine::evaluatePath()
+#2 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/cseguys/p...', Array)
+#3 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/cseguys/p...', Array)
+#4 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/ in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 2
+[25-Feb-2017 00:39:45 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 4
+[25-Feb-2017 00:39:47 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'The use statement with non-compound name 'Form' has no effect' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php:2
+Stack trace:
+#0 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'The use stateme...', '/home/cseguys/p...', 2, Array)
+#1 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\View\Engines\PhpEngine::evaluatePath()
+#2 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/cseguys/p...', Array)
+#3 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/cseguys/p...', Array)
+#4 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/ in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 2
+[25-Feb-2017 00:39:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 4
+[25-Feb-2017 00:40:01 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'The use statement with non-compound name 'Form' has no effect' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php:2
+Stack trace:
+#0 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'The use stateme...', '/home/cseguys/p...', 2, Array)
+#1 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\View\Engines\PhpEngine::evaluatePath()
+#2 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/cseguys/p...', Array)
+#3 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/cseguys/p...', Array)
+#4 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/ in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 2
+[25-Feb-2017 00:40:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 4
+[25-Feb-2017 00:41:23 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'The use statement with non-compound name 'Form' has no effect' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php:2
+Stack trace:
+#0 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'The use stateme...', '/home/cseguys/p...', 2, Array)
+#1 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\View\Engines\PhpEngine::evaluatePath()
+#2 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/cseguys/p...', Array)
+#3 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/cseguys/p...', Array)
+#4 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/ in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 2
+[25-Feb-2017 00:41:23 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 3
+[25-Feb-2017 00:41:52 UTC] PHP Fatal error:  Class 'Form' not found in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 4
+[25-Feb-2017 00:42:08 UTC] PHP Fatal error:  Class 'Form' not found in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 5
+[25-Feb-2017 00:42:24 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'The use statement with non-compound name 'Form' has no effect' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php:5
+Stack trace:
+#0 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'The use stateme...', '/home/cseguys/p...', 5, Array)
+#1 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): Illuminate\View\Engines\PhpEngine::evaluatePath()
+#2 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/cseguys/p...', Array)
+#3 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/cseguys/p...', Array)
+#4 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/ in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 5
+[25-Feb-2017 00:42:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 6
+[25-Feb-2017 00:43:09 UTC] PHP Fatal error:  Class 'Form' not found in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 6
+[25-Feb-2017 00:51:36 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 5
+[25-Feb-2017 00:51:48 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 5
+[25-Feb-2017 00:51:49 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 5
+[25-Feb-2017 00:52:06 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 5
+[25-Feb-2017 00:52:07 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/cseguys/public_html/kfl/storage/framework/views/d46ac3dda850f694514a98794ebbe918b24634b8.php on line 5
+[25-Feb-2017 02:12:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/cseguys/public_html/kfl/app/Http/Controllers/Register.php on line 28
+[25-Feb-2017 02:12:46 UTC] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/cseguys/public_html/kfl/routes/web.php on line 33
+[25-Feb-2017 02:13:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/cseguys/public_html/kfl/app/Http/Controllers/Register.php on line 28
+[25-Feb-2017 02:14:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/cseguys/public_html/kfl/app/Http/Controllers/Register.php on line 28
+[25-Feb-2017 02:14:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/cseguys/public_html/kfl/app/Http/Controllers/Register.php on line 28
+[25-Feb-2017 02:30:12 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/cseguys/public_html/kfl/routes/web.php on line 27
+[25-Feb-2017 02:40:44 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cseguys/public_html/kfl/storage/framework/views/9b9b063fede0945ae6a1bf620c439da2634d8b76.php on line 11
+[25-Feb-2017 02:41:09 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cseguys/public_html/kfl/storage/framework/views/9b9b063fede0945ae6a1bf620c439da2634d8b76.php on line 11
+[25-Feb-2017 02:41:27 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cseguys/public_html/kfl/storage/framework/views/9b9b063fede0945ae6a1bf620c439da2634d8b76.php on line 11
+[25-Feb-2017 02:41:50 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cseguys/public_html/kfl/storage/framework/views/9b9b063fede0945ae6a1bf620c439da2634d8b76.php on line 11
+[25-Feb-2017 03:46:39 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in /home/cseguys/public_html/kfl/app/Http/Controllers/Register.php on line 20
