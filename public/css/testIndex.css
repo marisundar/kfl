@@ -1,0 +1,65 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+.main_container{	
+	height:100%;
+	width:100%;
+}
+
+#top-container{
+	width:100%;
+	height:7%;
+}
+
+.live-score-container{
+	width:100%;
+	height:92%;
+}
+
+.live_score_column{
+	width:24%;
+	height:100%;
+	float:left;
+}
+
+.first .live_score_row{
+	width:100%;
+	height:13%;
+	border: 1px solid red;
+	background: url("../img/virat-kohli_full.png") no-repeat fixed center;
+	background-size:100%;
+}
+
+.first .image_container{
+	width:100%;
+	height:60%;
+}
+
+.first .points_container{
+	width:100%;
+	height:23%;
+	color: white;
+	text-align:center;
+	font-size:3em;
+	font-weight:bold;
+}
+
+.first .points_container .text{
+		background: orange;
+}
+
+.first .name_container .text{
+		background: red;
+}
+
+.first .name_container{
+	width:100%;
+	height:17%;
+	color: white;
+	text-align:center;
+	font-size:2em;
+}
+

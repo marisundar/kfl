@@ -19,6 +19,7 @@ class Register extends Controller
 		$user_id=$this->insertUser($request,false);
 		echo $request->input('teamName');
 		echo $request->input('leagueCode');
+		
 		$team_id = DB::table('TEAM_INFO')->insertGetId(
 		['TEAM_NAME' => $request->input('teamName')
 		, 'LEAGUE_ID' => $request->input('leagueCode')]);

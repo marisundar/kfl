@@ -23,7 +23,7 @@ class Hello extends Controller
 		*/
 		
 		
-        return "Checking if the controller is working";
+        return view('testIndex');
     }
 	
 	public function getPlayerDetails($playerId){
@@ -85,6 +85,7 @@ class Hello extends Controller
         $res = $client->get('https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20cricket.scorecard%20where%20match_id%3D'.$matchId.'&format=json&diagnostics=true&env=store%3A%2F%2F0TxIGQMQbObzvU4Apia0V0&callback=');
 		$response= $res->send();
         $array = json_decode($response->getBody(), true);
+	
         return $array;
     }
 

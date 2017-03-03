@@ -80,3 +80,47 @@ Stack trace:
 [25-Feb-2017 02:41:27 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cseguys/public_html/kfl/storage/framework/views/9b9b063fede0945ae6a1bf620c439da2634d8b76.php on line 11
 [25-Feb-2017 02:41:50 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cseguys/public_html/kfl/storage/framework/views/9b9b063fede0945ae6a1bf620c439da2634d8b76.php on line 11
 [25-Feb-2017 03:46:39 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in /home/cseguys/public_html/kfl/app/Http/Controllers/Register.php on line 20
+[26-Feb-2017 23:10:45 UTC] PHP Fatal error:  Class 'App\Events\Event' not found in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 13
+[26-Feb-2017 23:11:16 UTC] PHP Fatal error:  Class 'App\Events\Event' not found in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 13
+[26-Feb-2017 23:11:17 UTC] PHP Fatal error:  Class 'App\Events\Event' not found in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 13
+[26-Feb-2017 23:11:21 UTC] PHP Fatal error:  Class 'App\Events\Event' not found in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 13
+[26-Feb-2017 23:11:35 UTC] PHP Fatal error:  Class 'App\Events\Event' not found in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 14
+[26-Feb-2017 23:11:52 UTC] PHP Fatal error:  Trait method __sleep has not been applied, because there are collisions with other trait methods on App\Events\HelloPusherEvent in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 39
+[26-Feb-2017 23:12:35 UTC] PHP Fatal error:  Trait method __sleep has not been applied, because there are collisions with other trait methods on App\Events\HelloPusherEvent in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 39
+[26-Feb-2017 23:13:09 UTC] PHP Fatal error:  Trait method __sleep has not been applied, because there are collisions with other trait methods on App\Events\HelloPusherEvent in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 39
+[26-Feb-2017 23:13:24 UTC] PHP Fatal error:  Trait method __sleep has not been applied, because there are collisions with other trait methods on App\Events\HelloPusherEvent in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 38
+[26-Feb-2017 23:13:25 UTC] PHP Fatal error:  Trait method __sleep has not been applied, because there are collisions with other trait methods on App\Events\HelloPusherEvent in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 38
+[26-Feb-2017 23:14:46 UTC] PHP Fatal error:  Trait method __wakeup has not been applied, because there are collisions with other trait methods on App\Events\HelloPusherEvent in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 41
+[26-Feb-2017 23:14:47 UTC] PHP Fatal error:  Trait method __wakeup has not been applied, because there are collisions with other trait methods on App\Events\HelloPusherEvent in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 41
+[26-Feb-2017 23:14:48 UTC] PHP Fatal error:  Trait method __wakeup has not been applied, because there are collisions with other trait methods on App\Events\HelloPusherEvent in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 41
+[26-Feb-2017 23:15:01 UTC] PHP Fatal error:  Trait method getPropertyValue has not been applied, because there are collisions with other trait methods on App\Events\HelloPusherEvent in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 44
+[26-Feb-2017 23:15:19 UTC] PHP Fatal error:  Trait method getSerializedPropertyValue has not been applied, because there are collisions with other trait methods on App\Events\HelloPusherEvent in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 45
+[26-Feb-2017 23:18:39 UTC] PHP Fatal error:  Class 'App\Events\Event' not found in /home/cseguys/public_html/kfl/app/Events/HelloPusherEvent.php on line 11
+[26-Feb-2017 23:25:06 UTC] PHP Fatal error:  Class 'HelloPusherEvent' not found in /home/cseguys/public_html/kfl/routes/web.php on line 50
+[27-Feb-2017 00:04:14 UTC] PHP Parse error:  syntax error, unexpected ''encrypted'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/cseguys/public_html/kfl/config/broadcasting.php on line 40
+[27-Feb-2017 00:04:17 UTC] PHP Parse error:  syntax error, unexpected ''encrypted'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/cseguys/public_html/kfl/config/broadcasting.php on line 40
+[27-Feb-2017 00:04:18 UTC] PHP Parse error:  syntax error, unexpected ''encrypted'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/cseguys/public_html/kfl/config/broadcasting.php on line 40
+[27-Feb-2017 00:04:18 UTC] PHP Parse error:  syntax error, unexpected ''encrypted'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/cseguys/public_html/kfl/config/broadcasting.php on line 40
+[27-Feb-2017 00:04:19 UTC] PHP Parse error:  syntax error, unexpected ''encrypted'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/cseguys/public_html/kfl/config/broadcasting.php on line 40
+[27-Feb-2017 18:12:16 UTC] PHP Fatal error:  Class 'App\Events\Event' not found in /home/cseguys/public_html/kfl/app/Events/NewEvent.php on line 14
+[27-Feb-2017 18:18:08 UTC] PHP Fatal error:  Class 'App\Listeners\App' not found in /home/cseguys/public_html/kfl/app/Listeners/NewEventListener.php on line 30
+[27-Feb-2017 19:17:23 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(Pusher.php): failed to open stream: No such file or directory' in /home/cseguys/public_html/kfl/routes/web.php:13
+Stack trace:
+#0 /home/cseguys/public_html/kfl/routes/web.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(Pusher....', '/home/cseguys/p...', 13, Array)
+#1 /home/cseguys/public_html/kfl/routes/web.php(13): require()
+#2 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/Routing/Router.php(314): require('/home/cseguys/p...')
+#3 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/Routing/Router.php(270): Illuminate\Routing\Router->loadRoutes('/home/cseguys/p...')
+#4 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/cseguys/p...')
+#5 /home/cseguys/public_html/kfl/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/cseguys/p...')
+#6 /home/ in /home/cseguys/public_html/kfl/routes/web.php on line 13
+[27-Feb-2017 19:17:23 UTC] PHP Fatal error:  main(): Failed opening required 'Pusher.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/cseguys/public_html/kfl/routes/web.php on line 13
+[27-Feb-2017 19:17:47 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(Pusher.php): failed to open stream: No such file or directory' in /home/cseguys/public_html/kfl/routes/web.php:13
+Stack trace:
+#0 /home/cseguys/public_html/kfl/routes/web.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(Pusher....', '/home/cseguys/p...', 13, Array)
+#1 /home/cseguys/public_html/kfl/routes/web.php(13): require()
+#2 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/Routing/Router.php(314): require('/home/cseguys/p...')
+#3 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/Routing/Router.php(270): Illuminate\Routing\Router->loadRoutes('/home/cseguys/p...')
+#4 /home/cseguys/public_html/kfl/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/cseguys/p...')
+#5 /home/cseguys/public_html/kfl/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/cseguys/p...')
+#6 /home/ in /home/cseguys/public_html/kfl/routes/web.php on line 13
+[27-Feb-2017 19:17:47 UTC] PHP Fatal error:  main(): Failed opening required 'Pusher.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/cseguys/public_html/kfl/routes/web.php on line 13
