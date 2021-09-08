@@ -1,4 +1,4 @@
-#### APIs for LivePage:
+#### APIs for LivePages:
 
 1. **overalTeamPlayers:**
 
